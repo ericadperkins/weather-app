@@ -1,0 +1,31 @@
+/*Fonts*/
+.roboto{font-family: 'Roboto Condensed', sans-serif;}
+.sans{font-family: 'Open Sans Condensed', sans-serif;}
+.abril{font-family: 'Abril Fatface', cursive;}
+.prata{font-family: 'Prata', serif;}
+*{font-family:sans-serif;box-sizing:border-box;}
+.row:after{display:block;clear:both;content:'';text-align:center;}
+nav{height:15vh;}
+table{width:100%;heigh:100%;margin-top: -4vh;}
+h3{font-family: 'Prata', serif; font-size: 3vw;}
+#rightnav{text-align: right;}
+input[type="text"]{border:none;background-color: black;width: 300px;color: white;padding:5px;}
+input[name="subwbtn"]{border:none;background-color: black; color: white;padding: 5px;}
+.forecast_wrap{float:left;width:20%;padding:10px;text-align:center;margin-top: 5%;}
+.forecast{box-shadow: 1px 3px 3px 2px #CCD1D1;}
+.forecast_day{padding: 1em;font-size:2vw;font-weight: 100;font-family: 'Prata',serif;}
+hr{margin-top: -1vh; opacity: 0.5; width: 8vw;}
+.forecast_temp{font-size: 4vw;font-weight:900;margin-top: -0.5em;font-family: 'Abril Fatface', cursive;}
+.forecast_wind{padding-bottom: 3vh;}
+/*Mobile*/
+@media only screen and (max-width:750px){
+    table{margin-top:0;}
+    td{display: block;}
+    #rightnav{text-align:left;}
+    input[type="text"]{width:100%;height:6vh;font-size:1em;}
+    input[type="text"]:focus,input[type="text"]:active{outline:none;}
+    input[type="submit"]{display: none;}
+    .forecast_wrap{width:100%;font-size:4vw;}
+    .forecast_day{font-size: 6vw;}
+    .forecast_temp{font-size: 7vw;}
+}
